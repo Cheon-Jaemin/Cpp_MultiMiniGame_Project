@@ -1,12 +1,8 @@
-#include "Blackjack.h"
-#include <stdio.h>
-#include <iostream>
-#include "GameManager.h"
+#include "Game.h"
 
-using namespace std;
-
-int main(void)
+int main()
 {
-	GameManager game(500);
-	game.playRound(50);
+    Game game(20, 40, 60); 
+    game.start();
+    return 0;
 }

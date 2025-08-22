@@ -1,61 +1,25 @@
 #include "Player.h"
-#include <iostream>
-using namespace std;
 
-void Player::addCard(Card card)
-{
-	handCard.push_back(card);
+Player::Player(int startX, int startY) 
+{ 
+    x = startX; 
+    y = startY; 
 }
-
-int Player::getScore() const
-{
-	int score = 0;
-	int ace = 0;
-
-	for (int i = 0; i < handCard.size(); i++)
-	{
-		score = score + handCard[i].getValue();
-		if (handCard[i].getRank() == "A")
-		{
-			ace++;
-		}
-	}
-
-	while (score > 21 && ace > 0)
-	{
-		score -= 10;
-		ace--;
-	}
-
-	return score;
+int Player::getX() const 
+{ 
+    return x; 
 }
-
-void Player::showHand(bool hide) const
-{
-	for (int i = 0; i < handCard.size(); i++)
-	{
-		if (i == 0 && hide)
-		{
-			cout << "[Card]" << endl;
-		}
-		else
-		{
-			cout << handCard[i].toString() << endl;
-		}
-	}
-	if (!hide)
-	{
-		cout << "Score : " << getScore() << endl;
-	}
+int Player::getY() const 
+{ 
+    return y; 
 }
-
-bool Player::isBust() const
+void Player::move(char direction)
 {
-	return getScore() > 21;
+    switch (direction) 
+    {
+    case 'w': x--; break;
+    case 's': x++; break;
+    case 'a': y--; break;
+    case 'd': y++; break;
+    }
 }
-
-void Player::clearHand()
-{
-	handCard.clear();
-}
-
