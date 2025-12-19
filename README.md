@@ -15,4 +15,5 @@
 
 ## ★ 실행화면
 - 이미지 클릭 시 시연영상이 재생됩니다.
+
 [![실행화면](images/종합게임.PNG)](https://youtu.be/bnlq3zsQCfQ?si=C4a77t1cU2WYYIJs)
