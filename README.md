@@ -15,4 +15,4 @@
 - 개발 환경 : VisualStudio C++
 
 ## ★ 실행화면
-- 
+![메인화면](images/종합게임.png) 
