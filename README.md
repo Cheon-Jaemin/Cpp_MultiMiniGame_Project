@@ -1,1 +1,2 @@
-# Cpp_TeamProject
+# Cpp_MultiMiniGame_Project
+C++ 기반의 종합미니게임 프로젝트를 위해 객체지향을 활용하여 헤더와 클래스를 구분지어 블랙잭 미니게임과 미로찾기 미니게임을 구현함.
