@@ -1,6 +1,7 @@
 # C++을 활용한 종합 미니게임 프로그램
 ### Cpp_Blackjack_Maze에는 본인이 구현한 블랙잭 미니게임과 미로찾기 미니게임을 포함함.
 - https://github.com/Cheon-Jaemin/Cpp_TeamProject_MiniGame (종합미니게임 팀원들과 통합)
+- 시연영상 : https://youtu.be/bnlq3zsQCfQ?si=C4a77t1cU2WYYIJs
 
 ## ★ 프로젝트 소개
 - C++를 활용해 여러 미니게임을 하나의 프로그램으로 통합한 종합 게임을 구현함.
@@ -12,7 +13,6 @@
 - 프로젝트 기간 : 2025.08.20 ~ 2025.08.22
 - 담당 분야 : 블랙잭, 미로찾기 미니게임 구현
 - 개발 환경 : VisualStudio C++
-- 시연영상 : https://youtu.be/bnlq3zsQCfQ?si=C4a77t1cU2WYYIJs
 
 ## 실행화면
 - 
